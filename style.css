@@ -77,14 +77,59 @@ select {
 }
 
 body {
-    height: 100vh;
     font-size: 0.75rem;
     font-family: 'Kumbh Sans', sans-serif;
     background: linear-gradient(hsl(273, 75%, 66%), hsl(240, 73%, 65%));
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
+
 
 .card {
     background-color: hsl(0, 0%, 100%);
     border-radius: 25px;
     padding: 1rem;
+    position: relative;
+    padding-bottom: 4rem;
+}
+
+.card__image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform: translateY(-70%);
+    scale: 0.75;
+}
+
+.card__pattern {
+    position: absolute;
+    left: 3rem;
+}
+
+.card__heading {
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-top: 8rem;
+    margin-bottom: 1rem;
+}
+
+details {
+    padding: 1rem 2rem;
+    border-bottom: 1px solid hsl(240, 5%, 91%);
+    color: hsl(240, 6%, 50%);
+    max-width: 35ch;
+    margin: auto;
+}
+
+summary {
+    color: hsl(237, 12%, 33%);
+    font-size: 0.8rem;
+    word-spacing: -1px
+}
+
+details[open] summary {
+    font-weight: 700;
 }
