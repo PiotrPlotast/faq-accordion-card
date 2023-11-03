@@ -124,6 +124,10 @@ details {
     margin: auto;
 }
 
+details[open] {
+    padding: 1rem 1rem;
+}
+
 summary {
     color: hsl(237, 12%, 33%);
     font-size: 0.8rem;
