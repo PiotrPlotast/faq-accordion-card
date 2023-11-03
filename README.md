@@ -8,6 +8,6 @@
  - Love  <br />
  <br />
  Screenshots: <br />
- ![127 0 0 1_5500_index html Overview (2023-11-03 11 54 29)](https://github.com/PiotrPlotast/faq-accordion-card/assets/89207478/f902fd75-fb59-42f4-8169-6a47fde51e9a)
+ ![image](https://github.com/PiotrPlotast/faq-accordion-card/assets/89207478/f902fd75-fb59-42f4-8169-6a47fde51e9a)
 
 
